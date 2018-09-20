@@ -27,7 +27,7 @@ body{
     position: absolute;
     margin: 250px auto 50px;
     width: 850px;
-    background-color: #ecf4f3;
+    background-color: #f7f7f7;
     padding-bottom: 25px;
 }
 .footer{
@@ -69,7 +69,7 @@ body{
 .myBio{
     position: relative;
     float: left;
-    background: rgb(220,20,60, 0.2);
+    background: rgb(220, 20, 60, 0.1);
     width: 275px;
     margin: 75px 0 0 25px;
     border-radius: 5px;
@@ -91,7 +91,7 @@ body{
 .myHobby{
     position: relative;
     float:right;
-    background: rgb(220,20,60, 0.2);
+    background: rgb(220, 20, 60, 0.1);
     width: 515px;
     margin: 75px 25px 0 0;
     border-radius: 5px;
@@ -143,4 +143,17 @@ li{
 .b-image{
     text-align: center;
     margin: -125px 0 -15px;
+}
+.a-image{
+    width: 400px;
+}
+#copyr,#osercori{
+    font-size: 12px;
+    color: #182952;
+    margin-top: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+#osercori:hover{
+    color: #795548;
 }
