@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu|Nunito|Roboto|Open+Sans|Neucha');
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    background-image: url("https://images.pexels.com/photos/164839/pexels-photo-164839.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: auto;
+    background-attachment: fixed;
+}
+.principal{
+    position: relative;
+    margin: 25px auto 0;
+    width: 850px;
+    height: auto;
+}
+.header{
+    position: absolute;
+    width: 850px;
+    height: 250px;
+    background-image: url("https://image.ibb.co/hkZ6ep/godzilla.png");
+    border-radius: 10px 10px 0px 0px ;
+}
+.divbody{
+    position: absolute;
+    margin: 250px auto 50px;
+    width: 850px;
+    background-color: #ecf4f3;
+    padding-bottom: 25px;
+}
+.footer{
+    position: absolute;
+    color: #fffdf6;
+    bottom: -25px;
+    width: 850px;
+    height: 25px;
+    text-align: center;
+    background-color: #d291bc;
+    border-radius: 0px 0px 10px 10px ;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+}
+.myPhoto{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    margin: 125px 0 0 25px;
+    box-shadow: 0px 0px 10px #bbbbbb;
+    pointer-events: none;
+}
+.myName{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 210px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px; 
+    color: white;
+}
+.subName{
+    position: absolute;
+    margin: 225px 0 0 210px;
+    font-family: 'Gaegu', cursive;
+    font-size: 16px; 
+    color: white;
+}
+.myBio{
+    position: relative;
+    float: left;
+    background: rgb(220,20,60, 0.2);
+    width: 275px;
+    margin: 75px 0 0 25px;
+    border-radius: 5px;
+    
+}
+.titleText{
+    text-align: center;
+}
+.normalText{
+    text-align: justify;
+    margin: 10px 15px 10px;
+    font-size: 13px;
+    
+}
+.horizontal-rule {
+    border-top: 1px solid #eae7e7;
+    margin: -5px 75px;
+}
+.myHobby{
+    position: relative;
+    float:right;
+    background: rgb(220,20,60, 0.2);
+    width: 515px;
+    margin: 75px 25px 0 0;
+    border-radius: 5px;
+    text-align: center
+}
+.card-img{
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.h-titles{
+    text-align: left;
+    margin-left: 20px;
+}
+.normalText-2{
+    text-align: justify;
+    margin: 10px 20px 0;
+    font-size: 13px;
+    
+}
+.references{
+    text-align: left;
+    margin-left: 20px;
+}
+li{
+    text-align: left;
+}
+.uls{
+    margin-top: -10px;
+    list-style: circle;
+}
+.aa{
+    text-decoration: none;
+    color: #cd5555;
+    font-family: 'Neucha', cursive;
+    font-size: 18px;
+}
+.aa:hover{
+    color: #be3737;
+}
+.i-image{
+    width: 200px;
+    position: absolute;
+    margin-top: 138px;
+    margin-left: 655px;
+    color: #f9f8eb;
+}
